@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #064E3B;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+.app-name {
+    color: #F59E0B;
+}
+
+.img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.app-name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin: 18px auto;
+    text-align: center;
+}
+
+.endor-textarea {
+    width: 88%;
+    height: 118px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    
+
+    background-color: #10B981;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+
+    padding: 12px 19px;
+    text-align: left;
+}
+
+::placeholder {
+    color: #FDE68A;
+}
+
+.publish-btn {
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin: 13px auto 0px auto;
+    height: 61px;
+    background-color: #F59E0B;
+    color: #FDE68A;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.endor-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin: 24px auto 19px auto;
+    color: #F59E0B;
+}
+
+ul {
+    margin-top: 0px;
+    list-style-type: none;
+    padding: 0;
+    color: #1B1924;
+    font-size: 12px;
+}
+
+li {
+    padding: 13px 15px;
+    background-color: #10B981;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
